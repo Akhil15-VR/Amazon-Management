@@ -1,0 +1,94 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delivery Partner</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        nav {
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            padding: 10px 20px;
+        }
+
+        nav a:hover {
+            background-color: #555;
+            color: #fff;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .main-content {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+    <div class="container">
+        <h2>Contact Information</h2>
+        <p>If you have any questions or need assistance, please don't hesitate to contact us:</p>
+        
+        <address>
+            <p><strong>Delivery Partner Headquarters</strong></p>
+            <p>Address: 5419 Rich City of Delivery Headquarters</p>
+            <p>Phone:+91 7777777777</p>
+            <p>Email: Delivery@headquarters.com</p>
+        </address>
+        
+        <h2>Contact Form</h2>
+        <p>You can also send us a message using the contact form below:</p>
+        
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+            
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
